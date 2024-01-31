@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0px;
+    padding:0px
+}
+.body{
+
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    row-gap: 0.4rem;
+    column-gap: 0.4rem;
+    margin: 2px solid black;
+
+}
+
+.container{
+
+
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin: 2px solid black;
+
+
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:   rgb(172, 173, 173);;;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:  rgb(172, 173, 173);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.box{
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.null{
+font-size: 70px;
+
+}
+.about{
+    font-size: 25px;
+}
+.sidebar{
+   border: 2px solid black;
+    
+}
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.contact{
+ 
+ margin-left: 10px;
+ width: 98vw;
+font-size: medium;
+
+}
+.down{
+
+    font-size:30px;
+}
+
+.pyq{
+    background-color:  white
+
+}
+.len{
+    height: 550px;
+    border: 2px solid black;
+}
+
+</style>
+
+<body>
+    <div class="body">
+       
+        <div class="container header">
+           <div class="box">
+              
+             <div><img src="null.jpg"></div>
+            <div class="null">NULL</div>
+            <div class="about"><a href="about.html">ABOUT US</a></div>
+
+
+                                                               
+
+
+
+           </div>
+
+
+
+        </div>
+        <div class="container sidebar len">pyq links</div>
+        <div class="container  len pyq"> E-books</div>
+
+        <div class="container  len pyq">youtube link</div>
+
+
+
+        <div class="container footer">
+            <div class="down"> a NULL production</div> 
+            <div class="contact">
+         
+         <div>
+         contact us<br>E-MAIL:dahakevdant@gmail.com<br>PHONE:88895XXXXX
+         
+         </div>
+         
+            </div>
+          
+            
+            
+            
+            
+            
+         
+        </div>
+
+                                                  
+                                                               
+
+
+
+    </div>
+</body>
+</html>
