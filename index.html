@@ -1,279 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<style>
-    * {
 
-        margin: 0px;
-        padding: 0px;
-        color: rgb(0, 0, 0);
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-    }
-.about{
+<style>
+
+*{
+    margin: 0px;
+    padding:0px
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+   
+}
+.box{
+    
+    height: 100px;
+    background-color: rgb(172, 173, 173);
+   
+}
+body{
+    height: 100vh;
+    width:99vw;
+}
+.dabba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content{
+    height: 516px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+.null{
+    font-size: 90px;
+}
+.ABOUT{
+    font-size: 25px;
     text-decoration: none;
     background-color: beige;
     border-radius: 5px;
     border: 2px solid black;
-    height: 10px;
+    height: 50px;
+    margin-right: 10px;
 }
-    .body {
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.footer{
+    text-align: center;
+    font-size: 35px;
+}
+img:hover{
+    opacity: 0.6;
+}
 
-        display: grid;
-        height: 100vh;
-        width: 100vw;
-        grid-template-rows: 1fr 5fr 1fr;
-        row-gap: 1rem;
+@media screen and (max-width:1100px){
 
-
-    }
-
-    img {
-        border-radius: 50%;
-    }
-
-    .container {
-
-
-        background-color: rgb(172, 173, 173);
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .content {
-        height: 70vh;
-        background-color: white;
-
-    }
-
-    .image {
-
-        height: 340px;
-        width: 1200px;
-        margin-bottom: 2px;
-        border-radius: 5%;
-
-    }
-
-    .tittle {
-
-
-        background-color: grey;
-        height: 100px;
-        width: 1200px;
-        border-radius: 100px;
-
-
-    }
-
-    .op {
-
-
-        padding: 5px;
-        margin: 2px;
-        background-color: rgb(172, 173, 173);
-        border-radius: 53px;
-    }
-
-    .subtittle {
-
-        display: flex;
-        justify-content: space-around;
-
-        align-items: center;
-
-    }
-
-    .under {
+img{
+    height: 200px;
+    width: 200px;
+    margin:10px;
+   
+}
+.op{
+    
+   flex-direction:column;
+   align-items: center;
+   margin-left: -125px;
+}
+.null{
+    font-size: 40px;
+}
+.ABOUT{
+    
+    font-size: 15px;
+}
+.dabba{
+    justify-content: center;
+}
+.footer{
+    font-size: 22px;
+    margin-left: -124px;
+}
+.header{
+    margin-left: -120px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+}
 
 
-        font-size: 46px;
-        margin-top: 26px;
-
-        border-radius: 90px;
-    }
-
-    .under:hover {
-
-        background-color: rgb(172, 173, 173);
-        border-radius: 17px;
-    }
-
-    .imga {
-
-        height: 270px;
-        margin-top: 30px;
-    }
-
-    .imga:hover {
-
-        opacity: 0.4;
-
-    }
-
-    .img {
-
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .header {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        width: 96vw;
 
 
-    }
-
-    .logo {
-
-        height: 65px;
-
-    }
-
-    .about {
-        font-size: 20px;
-
-    }
-
-    .null {
-
-        font-size: 70px;
-    }
-
-    .footer {
-
-        font-size: 45px;
-        height: 150px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .school {
-        margin-right: 40px;
-    }
-
-    .down {
-
-        margin-bottom: 10px;
-    }
-
-    .contact {
 
 
-        width: 100vw;
-        font-size: large;
-        color:rgb(23, 80, 185)
-    }
-    @media screen and (max-width:1100px) {
-        .op{
-            flex-direction: column;
-        }
-        .img{
-            flex-direction: column;
-            
-        }
-        .imga{
-           
-             height: 160px;
-             width: 160px;
-             margin-left: -124px;
-             margin-top: 5px;
-            
-        }
-        .container{
-            width:500px ;
-        }
-        .image{
-           
-        }
-        .header{
-            margin-left: -70px
-        }
-    }
 </style>
 
-
 <body>
-    <div class="body">
-        <div class="container">
+    <div class="container">
+   <div class="box header">
+       <div class="dabba">
+           <div><img class="logo" src="null.jpg"></div>
+           <div class="null">NULL</div>
+           <div ><a class="ABOUT" href="founder.html">ABOUT US </a></div>
+       </div>
+   </div>
+   <div class="box content">
 
+<div class="op">
 
-            <div class="header">
+<div><a href="home.html"><img src="under.jpg"></a></div>
+<div><a href="school.html"><img src="school.jpg"></a></div>
 
-                <div><img class="logo" src="null.jpg"></div>
-                <div class="null">NULL</div>
-                <div class="about"><a  class="about"href="founder.html">ABOUTUS</a></div>
+</div>
 
-            </div>
+   </div>
+   <div class="box">
 
+    <div class="down footer"> a NULL production</div>
+    <div class="contact">
 
-        </div>
-        <div class="container content">
-            <div class="op">
-
-                <div class="image">
-
-                    <div class="img">
-                        <div>
-                            <a href="home.html"><img class="imga" src="under.jpg"></a>
-                        </div>
-                        <div>
-                            <a href="school.html"> <img class="imga" src="school.jpg"></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="tittle">
-
-
-                    <div class="subtittle">
-
-                        <div class="under">UNDERGRAD</div>
-                        <div class="under school">SCHOOLS</div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container footer">
-            <div class="down"> a NULL production</div>
-            <div class="contact">
-
-                <div>
-                    contact us:<br><br>E-MAIL: null22aash@gmail.com<br><br><a
-                    href="https://chat.whatsapp.com/Efggm53xoKO7IPbGAWgcwA">JOIN OUR COMMUNITY</a>
-
-                </div>
-
-            </div>
+        <div>
+            contact us:<br>E-MAIL: null22aash@gmail.com<br><a
+            href="https://chat.whatsapp.com/Efggm53xoKO7IPbGAWgcwA">JOIN OUR COMMUNITY</a>
 
         </div>
 
     </div>
+   </div>
+</div>
 </body>
-
 </html>
