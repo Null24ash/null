@@ -42,7 +42,10 @@ You can contribute at null22ash@gmail.com by
 - Reporting incorrect or outdated information
 - Providing feedback on the website's functionality
 
+TEAM NULL:
+-VEDANT DAHAKE
+-SWAPNIL GUPTA
+-HARSH JAT
 
 
 
-Remember to keep your README file clear, concise, and informative. Good luck with your project!
